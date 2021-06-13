@@ -23,8 +23,8 @@ $bdd = new PDO('mysql:host=localhost;dbname=test;chartset=utf8', 'root', '', arr
 </head>
 <body>
     <p>Vous êtes désormais déconnecter</p>
-    <form action="deconnexion.php">
-        <input type="submit" value="Retour">
+    <form action="index.php">
+        <input type="submit" value="Retour à la page d'accueil">
     </form>
 </body>
 </html>

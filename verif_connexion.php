@@ -45,6 +45,7 @@ if ($_POST) {
                 // echo $_COOKIE['pseudo'];
                 // echo $_COOKIE['pass_hache'];
             }
+            header("Location: page_membre.php");
         }
     }
 }

@@ -13,12 +13,15 @@ $bdd = new PDO('mysql:host=localhost;dbname=test;chartset=utf8', 'root', '', arr
 </head>
 
 <body>
+<div>
     <form action="verif_connexion.php" method="POST">
         <p><label for="pseudo">Pseudo <input type="text" id="pseudo" name="pseudo"></label></p>
         <p><label for="password">Mot de passe <input type="password" id="password" name="password"></label></p>
         <p><label for="auto">Connexion automatique <input type="checkbox" id="auto" name="auto"></label></p>
         <p><input type="submit" value="Se connecter"></p>
     </form>
+    <a href="inscription.php">Inscription</a></a>
+</div>
 
     <?php
     //? http://localhost/test/OPC/22-tp_espace_membre/connexion.php
